@@ -1,0 +1,78 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #364153;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    border: 2px solid #3662E3;
+    background-color: #111729;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px 15px rgba(0, 0, 0, 0.1);
+    width:450px;
+    height: 65px;
+    display: block;
+}
+
+.container1 {
+    border: 2px solid #3662E3;
+    background-color: white;
+    border-radius: 15%;
+    padding: 15px;
+    margin: 10px;
+    width:300px;
+    height: 300px;
+    display: none;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#link {
+    color: #1f2733;
+    width: 100%;
+    background: none;
+    border: none;
+    margin-right: 5px;
+}
+
+.btn {
+    border: none;
+    border-radius: 7%;
+    color: white;
+    background-color: #3662E3;
+    height: 35px;
+    width: 90px;
+}
+
+.containerQR {
+    display: flex;
+    justify-content: center;
+}
